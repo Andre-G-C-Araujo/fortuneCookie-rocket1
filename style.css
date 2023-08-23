@@ -1,0 +1,151 @@
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bgCookie-: url(./assets/Ebene\ 4.svg);
+  --shakeAnimation-: Shake 200ms infinite;
+  --paddingImg-: 0.6rem 1rem 1.1rem 1rem;
+  --mainHeight-: 43rem;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #b0f 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  padding: 48px 64px;
+}
+
+main {
+  display: flex;
+
+  width: 42rem;
+  height: var(--mainHeight-);
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.8);
+}
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+
+  position: relative;
+}
+/*h1*/
+.mainText {
+  color: #34355b;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+}
+/*h3*/
+.underText {
+  margin-top: 0.5rem;
+
+  color: #34355b;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 2rem;
+}
+/*div img*/
+.imgCookie {
+  display: flex;
+
+  width: 30rem;
+  height: 20rem;
+
+  padding: var(--paddingImg-);
+
+  margin-top: 4rem;
+
+  background: var(--bgCookie-) no-repeat;
+}
+
+.imgCookie:hover {
+  animation: var(--shakeAnimation-);
+}
+/*open cookie display*/
+.openedCookie {
+  --bgCookie-: url(./assets/opened-cookie.svg) bottom;
+  --shakeAnimation-: none;
+  --paddingImg-: 4.3rem 0rem 4.3rem 0rem;
+
+  transition: background 1.5s;
+}
+.openMode {
+  --mainHeight-: 54rem;
+}
+/*button*/
+.anotherCookie {
+  display: block;
+  margin: auto;
+
+  padding: 1.6rem;
+  align-items: flex-start;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+
+  border-radius: 4px;
+  background: #ff9500;
+}
+.showMessage {
+  background: #e4edf1 center;
+  position: absolute;
+
+  width: fit-content;
+  text-align: center;
+  font-family: Dancing Script, sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  animation: DownUp 3000ms forwards;
+}
+/*hidden mode*/
+.hidden {
+  display: none;
+}
+/*animations*/
+@keyframes Shake {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 15deg;
+  }
+}
+
+@keyframes DownUp {
+  0% {
+    bottom: 10rem;
+    width: 10%;
+    height: 10%;
+    margin-left: 12rem;
+  }
+  25% {
+    bottom: 25rem;
+    width: 45%;
+    height: 10%;
+  }
+  50% {
+    bottom: 40rem;
+    width: 75%;
+    height: 15%;
+  }
+  100% {
+    top: 5rem;
+  }
+}
