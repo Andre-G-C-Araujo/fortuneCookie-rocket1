@@ -18,6 +18,6 @@ const openCookieByClick = () => {
   }, 2000);
   setTimeout(() => {
     showMessage.innerText =
-      "Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.";
+      "A Arte de ser louco é jamais cometer a loucura de ser um sujeito normal ";
   }, 4000);
 };
