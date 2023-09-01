@@ -15,6 +15,16 @@ const openCookieByClick = () => {
     "A mente é como um paraquedas, só funciona se estiver aberta.",
     "Seja a versão da qual você vai se orgulhar no futuro. ",
     "O ignorante afirma, o sábio duvida, o sensato reflete.",
+    "as coisas que nos arrependeremos serão as decisões que não tomamos.",
+    "Esteja sempre um passo à frente dos seus concorrentes e meio passo atrás dos seus limites.",
+    "Praticar a compaixão, o amor e o carinho é a forma mais pura de cuidar da humanidade.",
+    "Quando o dia está cinza, seja o seu próprio arco-íris.",
+    "Os obstáculos são apenas oportunidades disfarçadas para deixar você mais forte.",
+    "Trabalhe duro em silêncio. Deixe que o sucesso faça barulho.",
+    "Tentar acertar realizando os mesmos erros é o mais claro sinal de insanidade.",
+    "Tentar evitar o fracasso é uma forma de fugir do êxito.",
+    "A motivação é o que ajuda a começar. O hábito é o que faz seguir adiante.",
+    "O seu maior professor é o seu maior erro.",
   ];
 
   if (imageCookie.classList.contains("openedCookie")) return;
