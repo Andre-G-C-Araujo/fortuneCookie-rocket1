@@ -36,7 +36,7 @@ const openCookieByClick = () => {
 
   // h3
 
-  const numeroAle = Math.round(Math.random() * 9);
+  const numeroAle = Math.round(Math.random() * 20);
 
   phraseArray.map((item, index) => {
     if (numeroAle === index) {
