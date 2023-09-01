@@ -112,6 +112,9 @@ main {
   font-weight: 400;
   line-height: normal;
 
+  margin-top: 3rem;
+  padding: 0rem 1rem;
+
   animation: DownUp 3000ms forwards;
 }
 /*hidden mode*/

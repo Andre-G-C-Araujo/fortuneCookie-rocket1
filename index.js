@@ -16,15 +16,20 @@ const openCookieByClick = () => {
     "Seja a versão da qual você vai se orgulhar no futuro. ",
     "O ignorante afirma, o sábio duvida, o sensato reflete.",
     "as coisas que nos arrependeremos serão as decisões que não tomamos.",
-    "Esteja sempre um passo à frente dos seus concorrentes e meio passo atrás dos seus limites.",
+    "Deixe pra trás o que não te leva pra frente.",
     "Praticar a compaixão, o amor e o carinho é a forma mais pura de cuidar da humanidade.",
     "Quando o dia está cinza, seja o seu próprio arco-íris.",
     "Os obstáculos são apenas oportunidades disfarçadas para deixar você mais forte.",
-    "Trabalhe duro em silêncio. Deixe que o sucesso faça barulho.",
+    "Faça valer a pena, as oportunidades não voltam.",
     "Tentar acertar realizando os mesmos erros é o mais claro sinal de insanidade.",
-    "Tentar evitar o fracasso é uma forma de fugir do êxito.",
+    "As palavras podem mentir, mas as atitudes sempre falam a verdade.",
     "A motivação é o que ajuda a começar. O hábito é o que faz seguir adiante.",
     "O seu maior professor é o seu maior erro.",
+    "Se você realmente quer que aconteça, vá atrás e não desista.",
+    "Tudo vem com um propósito, vai por uma razão e fica o essencial.",
+    "Decisões são assim, ou você arrisca, ou você se conforma.",
+    "O homem superior atribui a culpa a si próprio; o homem comum aos outros",
+    "Quando se está no fundo poço, voce aprende a olhar para cima",
   ];
 
   if (imageCookie.classList.contains("openedCookie")) return;
@@ -36,9 +41,10 @@ const openCookieByClick = () => {
 
   // h3
 
-  const numeroAle = Math.round(Math.random() * 20);
+  const numeroAle = Math.round(Math.random() * 24);
 
   phraseArray.map((item, index) => {
+    console.log(phraseArray.length);
     if (numeroAle === index) {
       showMessage.innerText = "";
       setTimeout(() => {
