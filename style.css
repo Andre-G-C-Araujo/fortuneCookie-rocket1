@@ -144,11 +144,11 @@ main {
     height: 10%;
   }
   50% {
-    bottom: 40rem;
+    bottom: 30rem;
     width: 75%;
     height: 15%;
   }
   100% {
-    top: 5rem;
+    bottom: initial;
   }
 }
