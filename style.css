@@ -142,6 +142,7 @@ main {
     bottom: 25rem;
     width: 45%;
     height: 10%;
+    margin-left: 8rem;
   }
   50% {
     bottom: 30rem;
