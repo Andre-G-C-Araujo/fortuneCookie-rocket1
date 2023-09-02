@@ -30,6 +30,7 @@ const openCookieByClick = () => {
     "Decisões são assim, ou você arrisca, ou você se conforma.",
     "O homem superior atribui a culpa a si próprio; o homem comum aos outros",
     "Quando se está no fundo poço, voce aprende a olhar para cima",
+    "Lute. Acredite. Conquiste. Perca. Deseje. Espere. Alcance. Invada. Caia. Seja tudo o quiser ser, mas, acima de tudo, seja você sempre.",
   ];
 
   if (imageCookie.classList.contains("openedCookie")) return;
