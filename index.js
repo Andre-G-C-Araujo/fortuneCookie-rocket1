@@ -17,11 +17,11 @@ const openCookieByClick = () => {
 
   // h3
 
-  const numeroAle = Math.round(Math.random() * 1);
+  const numeroAle = 1;
 
   phraseArray.map((item, index) => {
     console.log(phraseArray.length);
-    if (numeroAle === index) {
+    if (numeroAle) {
       showMessage.innerText = "";
       setTimeout(() => {
         showMessage.classList.toggle("showMessage");
